@@ -1,0 +1,32 @@
+[
+  {
+    "Kategoriya": "Sotuvlar",
+    "Yanvar": 92,
+    "Fevral": 88,
+    "Mart": 81,
+    "Aprel": 97,
+    "May": 90,
+    "Iyun": 79,
+    "Iyul": 86,
+    "Avgust": 94,
+    "Sentabr": 89,
+    "Oktabr": 96,
+    "Noyabr": 91,
+    "Dekabr": 93
+  },
+  {
+    "Kategoriya": "Foydalanuvchilar",
+    "Yanvar": 70,
+    "Fevral": 77,
+    "Mart": 72,
+    "Aprel": 84,
+    "May": 78,
+    "Iyun": 75,
+    "Iyul": 80,
+    "Avgust": 86,
+    "Sentabr": 82,
+    "Oktabr": 88,
+    "Noyabr": 85,
+    "Dekabr": 87
+  }
+]
