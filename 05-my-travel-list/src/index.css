@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Geist", sans-serif;
+  line-height: 1.5;
+  background-color: #f8fafc;
+  position: relative;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.navbar-logo {
+  font-size: 2.25rem;
+  text-align: center;
+  font-weight: bold;
+  color: #1f2937;
+}
+.navbar p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  text-align: center;
+}
+main{
+  width: 50%;
+}
+
+/* Travel list */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px 10px rgba(37, 99, 235,0.);
+}
+
+.textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.btn-gray {
+  background-color: #6b7280;
+}
+
+.btn-red {
+  background-color: #ef4444;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.select-tools {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.destination {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fafafa;
+}
+
+.destination.selected {
+  border: 2px solid #3b82f6;
+  background-color: #f0f9ff;
+}
+
+.destination-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.destination-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.destination-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.destination-country {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.destination-date {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.destination-description {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.destination-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.badge-visited {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.badge-planned {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-wishlist {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+.status-select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-top {
+  margin-bottom: 1rem;
+}
+
+.footer-top h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-top p {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid #374151;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
