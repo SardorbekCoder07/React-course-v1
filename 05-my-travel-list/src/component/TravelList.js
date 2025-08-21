@@ -54,6 +54,7 @@ export function TravelList() {
     }
   };
 
+
   return (
     <div>
       {/* Add Destination Card */}
